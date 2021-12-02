@@ -1,0 +1,12 @@
+executable = /afs/desy.de/user/d/dudarboh/FCAL/tb20/LUCAS_TB20/job/job.sh
+
+arguments = $(ProcId) /afs/desy.de/user/d/dudarboh/FCAL/tb20/LUCAS_TB20/build/startRun.mac
+
+
+initialdir = /nfs/dust/ilc/user/dudarboh/jobs/job$(ProcId)
+log = job.log
+output = job.out
+error = job.err
+
+max_retries = 3
+queue 1000
